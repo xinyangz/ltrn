@@ -1,0 +1,10 @@
+pandas
+numba==0.51.2
+scikit-learn
+scipy
+tbb
+torch==1.6.0
+torch-scatter==2.0.5+cu102
+torch-sparse==0.6.7+cu102
+tqdm
+transformers==4.1.0
