@@ -134,7 +134,6 @@ def load_training_data(
         df_train = df[~df.label.isnull()]
       else:
         df_train = df[~df.label.isnull()]
-      df_train.to_csv("/data1/xinyang/debug_train.csv")
       df_train_full = df_train_unlabeled
       # unlabeled set is always the original unlabeled set
       # which means it may overlap with pseudo labeled set
